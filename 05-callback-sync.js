@@ -1,7 +1,4 @@
-function doLog(msg) {
-  console.log(msg);
 
-}
 const nbs = [4, 5,6]
 
 //paradigm impératif (avec du if)

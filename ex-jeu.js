@@ -25,11 +25,12 @@ function jouer() {
     console.log('ATTENTION !!! Vous avez déjà tappé :\n'+tab);
   }
   rl.question('Trouve le nombre ', (answer) => {
+    answer=Number(answer)
     if (Number.isNaN(answer)) {
       console.log("Merci de tapper un chiffre ou un entier");
 
     }
-    answer=Number(answer)
+
 
     if (answer===nombreAtrouver) {
     console.log(`BRAVO c'était : ${answer} !`);

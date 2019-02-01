@@ -43,7 +43,7 @@ class Jeu {
         return this.jouer();
       }
 
-      console.log(chalk.bold.green('Gagné'));
+      console.log(chalk.bold.green.bgRed('Gagné'));
       this._rl.close();
     });
   }
